@@ -1,7 +1,7 @@
 # 욕설 감지기
 인공지능을 통해 욕설을 감지하는 프로젝트입니다.
 
-이 repository에는 학습된 모델과, 모델을 예측할 수 있는 Python 코드가 포함되어 있습니다.
+이 repository에는 모델을 예측할 수 있는 Python 코드가 포함되어 있습니다.
 
 학습된 모델 파일은 [여기](https://drive.google.com/file/d/1gO_5Pltn9vEVVyOW3gTTR4e7_DdjKPrL/view?usp=sharing)에서 다운로드 받을 수 있습니다. (모델 예측을 위해선 학습 모델을 src/models 폴더에 옮겨 주셔야 합니다)
 
