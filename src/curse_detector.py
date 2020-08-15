@@ -14,7 +14,7 @@ class CurseDetector():
         try:
             self.model.load_weights(path)
         except OSError:
-            raise Exception("학습된 모델을 불러오는 데 실패했습니다. 학습된 모델(weights.h5)을 models 폴더에 옯겨 주세요.")
+            raise Exception("학습된 모델을 불러오는 데 실패했습니다. 학습된 모델(weights.h5)을 models 폴더에 옮겨 주세요.")
 
     def embedding(self, texts):
         # 전처리, 임베딩 수행
